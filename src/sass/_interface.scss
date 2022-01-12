@@ -1,0 +1,15 @@
+.subtitle {
+    @include reg;
+    font-size: 12px;
+}
+.title {
+    @include reg;
+    font-size: 14px;
+}
+span {
+    @include bold;
+    color: black;
+}
+body {
+    // overflow: hidden;
+}
