@@ -19,7 +19,6 @@ window.addEventListener('DOMContentLoaded', function () {
             // dynamicBullets: true,
         },
     });
-
     // ! validation
 
 
@@ -76,8 +75,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
         },
     }, 'thanks-popup', 'send goal');
-    
-        
+
 });
 
 
