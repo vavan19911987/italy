@@ -1,0 +1,43 @@
+@media (min-width: 450px) {
+    .attenzione {
+        &__text {
+            height: 221px;
+            padding: 54px 16px 24px 16px;
+        }
+    }
+    .health {
+        &__text {
+            height: 221px;
+            padding-top: 54px;
+        }
+    }
+}
+@media (min-width: 640px) {
+    .forms {
+        .form {
+            display: block;
+        }
+    }
+    .wrap {
+        background: url(../img/boduBg.png) no-repeat;
+        background-position: 50%;
+        z-index: -1;
+    }
+    .protection {
+        &__wrapper {
+            width: 640px;
+            margin: 0 auto;
+        }
+    }
+    
+}
+
+@media (min-width: 1040px) {
+    .slider {
+        .wrapper {
+            &__item {
+                display: block;
+            }
+        }
+    }
+}

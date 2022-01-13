@@ -1,12 +1,12 @@
 .delivery {
        &__bg {
         min-height: 136px;
-        background: url(../img/bg.jpg) no-repeat;
+        background: url(../img/bg.jpg) no-repeat center;
         position: relative;
     }
     &__bg2 {
         min-height: 136px;
-        background: url(../img/bg3.jpg) no-repeat;
+        background: url(../img/bg3.jpg) no-repeat center;
         position: relative;
     }
     &__footer {
@@ -16,6 +16,7 @@
         display: flex;
         align-items: center;
         padding: 0 16px 0 16px;
+        justify-content: center;
     }
     &__text {
         color: $color-white;

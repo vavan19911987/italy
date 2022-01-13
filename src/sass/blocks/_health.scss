@@ -1,6 +1,4 @@
 .health {
-    background: url(../img/ok.png) no-repeat;
-    background-position: center 70%;
     position: relative;
     &__title {
         padding: 16px 16px 17px 16px;
@@ -17,7 +15,8 @@
         text-align: center;
         padding: 16px;
         line-height: 16px;
-
+        background: url(../img/ok.png) no-repeat;
+        background-position: center 70%;
     }
     .blue {
         color: $color-blue;

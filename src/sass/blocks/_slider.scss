@@ -1,14 +1,40 @@
 .slider {
+    margin: 0 auto;
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        &__item {
+            display: none;
+            margin: 15px;
+            opacity: .2;
+        }
+    }
     &__info {
         display: flex;
         align-items: center;
+        justify-content: center;
         padding: 27px 26px 37px 26px;
+        // background-color: #fff;
+        // max-width: 503px;
+        // margin: 0 auto;
     }
     &__title {
         line-height: 16px;
     }
+
 }
 
+.swiper {
+    &__img {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
 
 .image-slider {
     bottom: 0;
