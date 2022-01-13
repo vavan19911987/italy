@@ -10,6 +10,12 @@
             display: none;
             margin: 15px;
             opacity: .2;
+            width: 321px;
+            height: 278px;
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            
         }
     }
     &__info {
@@ -30,8 +36,13 @@
 .swiper {
     &__img {
         img {
+            width: 321px;
+            height: 278px;
             display: block;
             margin: 0 auto;
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
         }
     }
 }
