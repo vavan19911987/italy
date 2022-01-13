@@ -1,0 +1,16 @@
+.protection {
+    &__points {
+        display: flex;
+        align-items: center;
+        padding: 16px 16px 24px 16px;
+    }
+    &__title {
+        line-height: 16px;
+        padding-left: 16px;
+    }
+    .right {
+        padding-left: 0;
+        padding-right: 16px;
+    }
+    
+}

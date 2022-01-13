@@ -4,6 +4,11 @@
         background: url(../../img/bg.jpg) no-repeat;
         position: relative;
     }
+    &__bg2 {
+        min-height: 136px;
+        background: url(../../img/bg3.jpg) no-repeat;
+        position: relative;
+    }
     &__footer {
         background: $color-orange;
     }

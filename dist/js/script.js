@@ -18,13 +18,7 @@ window.addEventListener('DOMContentLoaded', function () {
             clickable: true,
             // dynamicBullets: true,
         },
-
     });
-    
-
-
-    new WOW().init();
-
 });
 
 

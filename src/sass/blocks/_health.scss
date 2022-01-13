@@ -1,0 +1,33 @@
+.health {
+    background: url(../../img/ok.png) no-repeat;
+    background-position: center 70%;
+    position: relative;
+    &__title {
+        padding: 16px 16px 17px 16px;
+        background: $color-blue;
+        text-align: center;
+        color: $color-white;
+        line-height: 16px;
+        text-transform: uppercase;
+    }
+    &__subtitle {
+        text-transform: none;
+    }
+    &__text {
+        text-align: center;
+        padding: 16px;
+        line-height: 16px;
+
+    }
+    .blue {
+        color: $color-blue;
+        text-transform: lowercase;
+        padding-bottom: 20px;
+    }
+    .p {
+        padding-bottom: 20px;
+    }
+    .btn {
+        margin-bottom: 16px;
+    }
+}
